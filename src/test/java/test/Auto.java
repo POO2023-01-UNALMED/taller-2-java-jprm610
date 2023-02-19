@@ -10,7 +10,14 @@ public class Auto {
     static int cantidadCreados;
 
     int cantidadAsientos() {
-        return asientos.length;
+        // Se suma un asiento si la instancia realmente existe.
+        int cantidad = 0;
+        for (Asiento asiento : asientos) {
+            if (asiento != null) {
+                cantidad++;
+            }
+        }
+        return cantidad;
     }
 
     String verificarIntegridad() {
