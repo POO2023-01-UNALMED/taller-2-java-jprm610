@@ -6,7 +6,7 @@ public class Asiento {
     int registro;
 
     void cambiarColor(String color) {
-        // Verificar si el color ingresado como parámetro es uno de los colores permitidos.
+        // Verificar si el color ingresado como parametro es uno de los colores permitidos.
         String[] colors = {"rojo", "verde", "amarillo", "negro", "blanco"};
         boolean validColor = false;
         for (String s : colors) {

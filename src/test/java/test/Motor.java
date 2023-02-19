@@ -10,7 +10,7 @@ public class Motor {
     }
 
     void asignarTipo(String tipo) {
-        // Verificar si el tipo ingresado como parámetro es uno de los tipos permitidos.
+        // Verificar si el tipo ingresado como parametro es uno de los tipos permitidos.
         String[] tipos = {"electrico", "gasolina"};
         boolean validTipo = false;
         for (String s : tipos) {
