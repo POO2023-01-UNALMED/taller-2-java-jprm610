@@ -28,7 +28,7 @@ public class Auto {
         
         // Verificar registros de los asientos
         for (Asiento asiento : asientos) {
-            if (registro != asiento.registro) {
+            if (asiento != null && registro != asiento.registro) {
                 return "Las piezas no son originales";
             }
         }
